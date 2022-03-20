@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 function App() {
   const [newsData, setNewsData] = useState(null);
 
-  console.log(newsData);
   useEffect(() => {
     fetch("./data.json")
       .then((res) => res.json())
@@ -16,6 +15,7 @@ function App() {
     newsData.map((newData) => (
       <NewsWithImage key={newData.id} newData={newData} />
     ));
+
   return (
     <div className="App">
       <Header />
