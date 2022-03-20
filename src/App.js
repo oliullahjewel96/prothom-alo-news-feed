@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import NewsWithImage from "./components/NewsWithImage";
+
 import { useState, useEffect } from "react";
 function App() {
   const [newsData, setNewsData] = useState(null);

@@ -1,4 +1,4 @@
-import "../styles/header.scss";
+import "../styles/style.scss";
 const Title = (props) => {
   return (
     <a href="#">

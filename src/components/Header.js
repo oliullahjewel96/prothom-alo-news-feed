@@ -1,4 +1,4 @@
-import "../styles/header.scss";
+import "../styles/style.scss";
 import logo from "../images/logo.svg";
 const Header = () => {
   return (

@@ -1,24 +1,8 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.header-logo img {
-    width: 260px;
-    aspect-ratio: auto 260 / 65;
-    height: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
 .news-with-image-container {
     display: grid;
     padding: 30px;
-    grid-gap: 30px;
-    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-template-columns: auto auto auto auto;
     a {
         text-decoration: none;
     }

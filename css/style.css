@@ -7,7 +7,6 @@
 
 .header-logo img {
   width: 260px;
-  aspect-ratio: auto 260 / 65;
   height: 65px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,9 +24,9 @@
   display: -ms-grid;
   display: grid;
   padding: 30px;
-  grid-gap: 30px;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
 }
 
 .news-with-image-container a {

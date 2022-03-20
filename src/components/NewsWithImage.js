@@ -1,6 +1,7 @@
 import Description from "./Description";
 import Title from "./Title";
 import Image from "./Image";
+import "../styles/style.scss";
 const NewsWithImage = (props) => {
   return (
     <section className="news-with-image-container">
