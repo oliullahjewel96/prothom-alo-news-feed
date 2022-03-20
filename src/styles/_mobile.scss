@@ -1,0 +1,8 @@
+@media only screen and(max-width:768px) {
+    .news-with-image-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        grid-row-gap: 100px;
+    }
+}

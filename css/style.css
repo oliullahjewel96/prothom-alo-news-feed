@@ -24,6 +24,7 @@
   display: -ms-grid;
   display: grid;
   padding: 30px;
+  margin-left: 40px;
   gap: 30px;
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
@@ -75,4 +76,15 @@
   width: 314px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .news-with-image-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 100px;
+  }
 }
